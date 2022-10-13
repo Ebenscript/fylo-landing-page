@@ -1,8 +1,3 @@
-/**
-font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
-
 :root {
   --open-sans: "Open Sans", sans-serif;
   --raleway: "Raleway", sans-serif;
@@ -22,7 +17,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 body {
-  background-color: var(--darkblue);
+  background-color: var(--darkblue100);
 
   font-size: 14px;
   font-family: var(--open-sans);
@@ -383,4 +378,30 @@ img {
   justify-content: center;
   border-radius: 50%;
   border: 1px solid var(--white);
+}
+
+body {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 400px;
+  background-color: var(--darkblue);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 100px;
+  background-image: url("images/bg-curvy-mobile.svg");
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    height: 850px;
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-size: 100% 290px;
+  }
 }
