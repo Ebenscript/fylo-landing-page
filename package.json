@@ -1,0 +1,24 @@
+{
+  "name": "fylo-dark-theme-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ebenscript/fylo-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ebenscript/fylo-landing-page/issues"
+  },
+  "homepage": "https://github.com/Ebenscript/fylo-landing-page#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
